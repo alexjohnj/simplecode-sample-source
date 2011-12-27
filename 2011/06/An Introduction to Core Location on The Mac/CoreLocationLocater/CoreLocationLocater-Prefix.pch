@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CoreLocationLocater' target in the 'CoreLocationLocater' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

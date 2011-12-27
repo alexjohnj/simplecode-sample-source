@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC1110E14A91F31002C2600 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC1110D14A91F31002C2600 /* Cocoa.framework */; };
+		FAC1111814A91F31002C2600 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC1111614A91F31002C2600 /* InfoPlist.strings */; };
+		FAC1111A14A91F31002C2600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1111914A91F31002C2600 /* main.m */; };
+		FAC1111E14A91F31002C2600 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAC1111C14A91F31002C2600 /* Credits.rtf */; };
+		FAC1112114A91F32002C2600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC1112014A91F32002C2600 /* AppDelegate.m */; };
+		FAC1112414A91F32002C2600 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC1112214A91F32002C2600 /* MainMenu.xib */; };
+		FAC1112F14A91F83002C2600 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC1112E14A91F83002C2600 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC1110914A91F31002C2600 /* CoreLocationLocater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLocationLocater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC1110D14A91F31002C2600 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAC1111014A91F31002C2600 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAC1111114A91F31002C2600 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAC1111214A91F31002C2600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAC1111514A91F31002C2600 /* CoreLocationLocater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreLocationLocater-Info.plist"; sourceTree = "<group>"; };
+		FAC1111714A91F31002C2600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAC1111914A91F31002C2600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC1111B14A91F31002C2600 /* CoreLocationLocater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreLocationLocater-Prefix.pch"; sourceTree = "<group>"; };
+		FAC1111D14A91F31002C2600 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAC1111F14A91F32002C2600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC1112014A91F32002C2600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC1112314A91F32002C2600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAC1112E14A91F83002C2600 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC1110614A91F31002C2600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC1112F14A91F83002C2600 /* CoreLocation.framework in Frameworks */,
+				FAC1110E14A91F31002C2600 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC110FE14A91F31002C2600 = {
+			isa = PBXGroup;
+			children = (
+				FAC1111314A91F31002C2600 /* CoreLocationLocater */,
+				FAC1110C14A91F31002C2600 /* Frameworks */,
+				FAC1110A14A91F31002C2600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC1110A14A91F31002C2600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1110914A91F31002C2600 /* CoreLocationLocater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC1110C14A91F31002C2600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1112E14A91F83002C2600 /* CoreLocation.framework */,
+				FAC1110D14A91F31002C2600 /* Cocoa.framework */,
+				FAC1110F14A91F31002C2600 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC1110F14A91F31002C2600 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1111014A91F31002C2600 /* AppKit.framework */,
+				FAC1111114A91F31002C2600 /* CoreData.framework */,
+				FAC1111214A91F31002C2600 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAC1111314A91F31002C2600 /* CoreLocationLocater */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1111F14A91F32002C2600 /* AppDelegate.h */,
+				FAC1112014A91F32002C2600 /* AppDelegate.m */,
+				FAC1112214A91F32002C2600 /* MainMenu.xib */,
+				FAC1111414A91F31002C2600 /* Supporting Files */,
+			);
+			path = CoreLocationLocater;
+			sourceTree = "<group>";
+		};
+		FAC1111414A91F31002C2600 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1111514A91F31002C2600 /* CoreLocationLocater-Info.plist */,
+				FAC1111614A91F31002C2600 /* InfoPlist.strings */,
+				FAC1111914A91F31002C2600 /* main.m */,
+				FAC1111B14A91F31002C2600 /* CoreLocationLocater-Prefix.pch */,
+				FAC1111C14A91F31002C2600 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC1110814A91F31002C2600 /* CoreLocationLocater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC1112714A91F32002C2600 /* Build configuration list for PBXNativeTarget "CoreLocationLocater" */;
+			buildPhases = (
+				FAC1110514A91F31002C2600 /* Sources */,
+				FAC1110614A91F31002C2600 /* Frameworks */,
+				FAC1110714A91F31002C2600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreLocationLocater;
+			productName = CoreLocationLocater;
+			productReference = FAC1110914A91F31002C2600 /* CoreLocationLocater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC1110014A91F31002C2600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FAC1110314A91F31002C2600 /* Build configuration list for PBXProject "CoreLocationLocater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAC110FE14A91F31002C2600;
+			productRefGroup = FAC1110A14A91F31002C2600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC1110814A91F31002C2600 /* CoreLocationLocater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC1110714A91F31002C2600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC1111814A91F31002C2600 /* InfoPlist.strings in Resources */,
+				FAC1111E14A91F31002C2600 /* Credits.rtf in Resources */,
+				FAC1112414A91F32002C2600 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC1110514A91F31002C2600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC1111A14A91F31002C2600 /* main.m in Sources */,
+				FAC1112114A91F32002C2600 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC1111614A91F31002C2600 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC1111714A91F31002C2600 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAC1111C14A91F31002C2600 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC1111D14A91F31002C2600 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAC1112214A91F32002C2600 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC1112314A91F32002C2600 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC1112514A91F32002C2600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAC1112614A91F32002C2600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAC1112814A91F32002C2600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocationLocater/CoreLocationLocater-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocationLocater/CoreLocationLocater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAC1112914A91F32002C2600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocationLocater/CoreLocationLocater-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocationLocater/CoreLocationLocater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC1110314A91F31002C2600 /* Build configuration list for PBXProject "CoreLocationLocater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC1112514A91F32002C2600 /* Debug */,
+				FAC1112614A91F32002C2600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC1112714A91F32002C2600 /* Build configuration list for PBXNativeTarget "CoreLocationLocater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC1112814A91F32002C2600 /* Debug */,
+				FAC1112914A91F32002C2600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC1110014A91F31002C2600 /* Project object */;
+}

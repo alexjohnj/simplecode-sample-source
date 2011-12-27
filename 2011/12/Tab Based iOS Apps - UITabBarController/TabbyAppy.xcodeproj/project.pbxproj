@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA413DB14A9D6DF006B34C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA413DA14A9D6DF006B34C9 /* UIKit.framework */; };
+		FAA413DD14A9D6DF006B34C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA413DC14A9D6DF006B34C9 /* Foundation.framework */; };
+		FAA413DF14A9D6DF006B34C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA413DE14A9D6DF006B34C9 /* CoreGraphics.framework */; };
+		FAA413E514A9D6DF006B34C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA413E314A9D6DF006B34C9 /* InfoPlist.strings */; };
+		FAA413E714A9D6DF006B34C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA413E614A9D6DF006B34C9 /* main.m */; };
+		FAA413EB14A9D6DF006B34C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA413EA14A9D6DF006B34C9 /* AppDelegate.m */; };
+		FAA413FC14A9D701006B34C9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA413FA14A9D701006B34C9 /* FirstViewController.m */; };
+		FAA413FD14A9D701006B34C9 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA413FB14A9D701006B34C9 /* FirstViewController.xib */; };
+		FAA4140214A9D708006B34C9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4140014A9D708006B34C9 /* SecondViewController.m */; };
+		FAA4140314A9D708006B34C9 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4140114A9D708006B34C9 /* SecondViewController.xib */; };
+		FAA4140714A9D70F006B34C9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4140514A9D70F006B34C9 /* ThirdViewController.m */; };
+		FAA4140814A9D70F006B34C9 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4140614A9D70F006B34C9 /* ThirdViewController.xib */; };
+		FAA4140C14A9D717006B34C9 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4140A14A9D717006B34C9 /* FourthViewController.m */; };
+		FAA4140D14A9D717006B34C9 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4140B14A9D717006B34C9 /* FourthViewController.xib */; };
+		FAA4141114A9D71F006B34C9 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4140F14A9D71F006B34C9 /* FifthViewController.m */; };
+		FAA4141214A9D71F006B34C9 /* FifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4141014A9D71F006B34C9 /* FifthViewController.xib */; };
+		FAA4141614A9D727006B34C9 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4141414A9D727006B34C9 /* SixthViewController.m */; };
+		FAA4141714A9D727006B34C9 /* SixthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA4141514A9D727006B34C9 /* SixthViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA413D614A9D6DF006B34C9 /* TabbyAppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbyAppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA413DA14A9D6DF006B34C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAA413DC14A9D6DF006B34C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA413DE14A9D6DF006B34C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAA413E214A9D6DF006B34C9 /* TabbyAppy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabbyAppy-Info.plist"; sourceTree = "<group>"; };
+		FAA413E414A9D6DF006B34C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA413E614A9D6DF006B34C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA413E814A9D6DF006B34C9 /* TabbyAppy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabbyAppy-Prefix.pch"; sourceTree = "<group>"; };
+		FAA413E914A9D6DF006B34C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA413EA14A9D6DF006B34C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA413F914A9D701006B34C9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAA413FA14A9D701006B34C9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAA413FB14A9D701006B34C9 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FAA413FF14A9D708006B34C9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FAA4140014A9D708006B34C9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAA4140114A9D708006B34C9 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		FAA4140414A9D70F006B34C9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FAA4140514A9D70F006B34C9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FAA4140614A9D70F006B34C9 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		FAA4140914A9D717006B34C9 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		FAA4140A14A9D717006B34C9 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		FAA4140B14A9D717006B34C9 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		FAA4140E14A9D71F006B34C9 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		FAA4140F14A9D71F006B34C9 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		FAA4141014A9D71F006B34C9 /* FifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FifthViewController.xib; sourceTree = "<group>"; };
+		FAA4141314A9D727006B34C9 /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		FAA4141414A9D727006B34C9 /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		FAA4141514A9D727006B34C9 /* SixthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SixthViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA413D314A9D6DF006B34C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA413DB14A9D6DF006B34C9 /* UIKit.framework in Frameworks */,
+				FAA413DD14A9D6DF006B34C9 /* Foundation.framework in Frameworks */,
+				FAA413DF14A9D6DF006B34C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA413CB14A9D6DF006B34C9 = {
+			isa = PBXGroup;
+			children = (
+				FAA413E014A9D6DF006B34C9 /* TabbyAppy */,
+				FAA413D914A9D6DF006B34C9 /* Frameworks */,
+				FAA413D714A9D6DF006B34C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA413D714A9D6DF006B34C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA413D614A9D6DF006B34C9 /* TabbyAppy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA413D914A9D6DF006B34C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA413DA14A9D6DF006B34C9 /* UIKit.framework */,
+				FAA413DC14A9D6DF006B34C9 /* Foundation.framework */,
+				FAA413DE14A9D6DF006B34C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA413E014A9D6DF006B34C9 /* TabbyAppy */ = {
+			isa = PBXGroup;
+			children = (
+				FAA413E914A9D6DF006B34C9 /* AppDelegate.h */,
+				FAA413EA14A9D6DF006B34C9 /* AppDelegate.m */,
+				FAA4141814A9D743006B34C9 /* Views */,
+				FAA4141914A9D753006B34C9 /* ViewControllers */,
+				FAA413E114A9D6DF006B34C9 /* Supporting Files */,
+			);
+			path = TabbyAppy;
+			sourceTree = "<group>";
+		};
+		FAA413E114A9D6DF006B34C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA413E214A9D6DF006B34C9 /* TabbyAppy-Info.plist */,
+				FAA413E314A9D6DF006B34C9 /* InfoPlist.strings */,
+				FAA413E614A9D6DF006B34C9 /* main.m */,
+				FAA413E814A9D6DF006B34C9 /* TabbyAppy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA4141814A9D743006B34C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4141514A9D727006B34C9 /* SixthViewController.xib */,
+				FAA4141014A9D71F006B34C9 /* FifthViewController.xib */,
+				FAA4140B14A9D717006B34C9 /* FourthViewController.xib */,
+				FAA4140614A9D70F006B34C9 /* ThirdViewController.xib */,
+				FAA4140114A9D708006B34C9 /* SecondViewController.xib */,
+				FAA413FB14A9D701006B34C9 /* FirstViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FAA4141914A9D753006B34C9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4140A14A9D717006B34C9 /* FourthViewController.m */,
+				FAA4140514A9D70F006B34C9 /* ThirdViewController.m */,
+				FAA4140014A9D708006B34C9 /* SecondViewController.m */,
+				FAA413F914A9D701006B34C9 /* FirstViewController.h */,
+				FAA413FF14A9D708006B34C9 /* SecondViewController.h */,
+				FAA4140414A9D70F006B34C9 /* ThirdViewController.h */,
+				FAA4140914A9D717006B34C9 /* FourthViewController.h */,
+				FAA4140E14A9D71F006B34C9 /* FifthViewController.h */,
+				FAA4141314A9D727006B34C9 /* SixthViewController.h */,
+				FAA4141414A9D727006B34C9 /* SixthViewController.m */,
+				FAA4140F14A9D71F006B34C9 /* FifthViewController.m */,
+				FAA413FA14A9D701006B34C9 /* FirstViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA413D514A9D6DF006B34C9 /* TabbyAppy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA413EE14A9D6DF006B34C9 /* Build configuration list for PBXNativeTarget "TabbyAppy" */;
+			buildPhases = (
+				FAA413D214A9D6DF006B34C9 /* Sources */,
+				FAA413D314A9D6DF006B34C9 /* Frameworks */,
+				FAA413D414A9D6DF006B34C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbyAppy;
+			productName = TabbyAppy;
+			productReference = FAA413D614A9D6DF006B34C9 /* TabbyAppy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA413CD14A9D6DF006B34C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FAA413D014A9D6DF006B34C9 /* Build configuration list for PBXProject "TabbyAppy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAA413CB14A9D6DF006B34C9;
+			productRefGroup = FAA413D714A9D6DF006B34C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA413D514A9D6DF006B34C9 /* TabbyAppy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA413D414A9D6DF006B34C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA413E514A9D6DF006B34C9 /* InfoPlist.strings in Resources */,
+				FAA413FD14A9D701006B34C9 /* FirstViewController.xib in Resources */,
+				FAA4140314A9D708006B34C9 /* SecondViewController.xib in Resources */,
+				FAA4140814A9D70F006B34C9 /* ThirdViewController.xib in Resources */,
+				FAA4140D14A9D717006B34C9 /* FourthViewController.xib in Resources */,
+				FAA4141214A9D71F006B34C9 /* FifthViewController.xib in Resources */,
+				FAA4141714A9D727006B34C9 /* SixthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA413D214A9D6DF006B34C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA413E714A9D6DF006B34C9 /* main.m in Sources */,
+				FAA413EB14A9D6DF006B34C9 /* AppDelegate.m in Sources */,
+				FAA413FC14A9D701006B34C9 /* FirstViewController.m in Sources */,
+				FAA4140214A9D708006B34C9 /* SecondViewController.m in Sources */,
+				FAA4140714A9D70F006B34C9 /* ThirdViewController.m in Sources */,
+				FAA4140C14A9D717006B34C9 /* FourthViewController.m in Sources */,
+				FAA4141114A9D71F006B34C9 /* FifthViewController.m in Sources */,
+				FAA4141614A9D727006B34C9 /* SixthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA413E314A9D6DF006B34C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA413E414A9D6DF006B34C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA413EC14A9D6DF006B34C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA413ED14A9D6DF006B34C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA413EF14A9D6DF006B34C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabbyAppy/TabbyAppy-Prefix.pch";
+				INFOPLIST_FILE = "TabbyAppy/TabbyAppy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAA413F014A9D6DF006B34C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabbyAppy/TabbyAppy-Prefix.pch";
+				INFOPLIST_FILE = "TabbyAppy/TabbyAppy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA413D014A9D6DF006B34C9 /* Build configuration list for PBXProject "TabbyAppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA413EC14A9D6DF006B34C9 /* Debug */,
+				FAA413ED14A9D6DF006B34C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA413EE14A9D6DF006B34C9 /* Build configuration list for PBXNativeTarget "TabbyAppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA413EF14A9D6DF006B34C9 /* Debug */,
+				FAA413F014A9D6DF006B34C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA413CD14A9D6DF006B34C9 /* Project object */;
+}

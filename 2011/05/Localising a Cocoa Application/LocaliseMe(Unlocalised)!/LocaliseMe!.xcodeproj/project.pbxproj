@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA82FC0C13786CD200480778 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82FC0B13786CD200480778 /* Cocoa.framework */; };
+		FA82FC1613786CD200480778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA82FC1413786CD200480778 /* InfoPlist.strings */; };
+		FA82FC1913786CD200480778 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82FC1813786CD200480778 /* main.m */; };
+		FA82FC1C13786CD200480778 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA82FC1A13786CD200480778 /* Credits.rtf */; };
+		FA82FC1F13786CD200480778 /* LocaliseMe_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82FC1E13786CD200480778 /* LocaliseMe_AppDelegate.m */; };
+		FA82FC2213786CD200480778 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82FC2013786CD200480778 /* MainMenu.xib */; };
+		FA82FC2A13786D1700480778 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82FC2913786D1700480778 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA82FC0713786CD200480778 /* LocaliseMe!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocaliseMe!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA82FC0B13786CD200480778 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA82FC0E13786CD200480778 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA82FC0F13786CD200480778 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA82FC1013786CD200480778 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA82FC1313786CD200480778 /* LocaliseMe!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocaliseMe!-Info.plist"; sourceTree = "<group>"; };
+		FA82FC1513786CD200480778 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA82FC1713786CD200480778 /* LocaliseMe!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocaliseMe!-Prefix.pch"; sourceTree = "<group>"; };
+		FA82FC1813786CD200480778 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA82FC1B13786CD200480778 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA82FC1D13786CD200480778 /* LocaliseMe_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocaliseMe_AppDelegate.h; sourceTree = "<group>"; };
+		FA82FC1E13786CD200480778 /* LocaliseMe_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocaliseMe_AppDelegate.m; sourceTree = "<group>"; };
+		FA82FC2113786CD200480778 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA82FC2813786D1700480778 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		FA82FC2913786D1700480778 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA82FC0413786CD200480778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82FC0C13786CD200480778 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA82FBFC13786CD100480778 = {
+			isa = PBXGroup;
+			children = (
+				FA82FC1113786CD200480778 /* LocaliseMe! */,
+				FA82FC0A13786CD200480778 /* Frameworks */,
+				FA82FC0813786CD200480778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA82FC0813786CD200480778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA82FC0713786CD200480778 /* LocaliseMe!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA82FC0A13786CD200480778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA82FC0B13786CD200480778 /* Cocoa.framework */,
+				FA82FC0D13786CD200480778 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA82FC0D13786CD200480778 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA82FC0E13786CD200480778 /* AppKit.framework */,
+				FA82FC0F13786CD200480778 /* CoreData.framework */,
+				FA82FC1013786CD200480778 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA82FC1113786CD200480778 /* LocaliseMe! */ = {
+			isa = PBXGroup;
+			children = (
+				FA82FC1D13786CD200480778 /* LocaliseMe_AppDelegate.h */,
+				FA82FC1E13786CD200480778 /* LocaliseMe_AppDelegate.m */,
+				FA82FC2013786CD200480778 /* MainMenu.xib */,
+				FA82FC2813786D1700480778 /* AppController.h */,
+				FA82FC2913786D1700480778 /* AppController.m */,
+				FA82FC1213786CD200480778 /* Supporting Files */,
+			);
+			path = "LocaliseMe!";
+			sourceTree = "<group>";
+		};
+		FA82FC1213786CD200480778 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA82FC1313786CD200480778 /* LocaliseMe!-Info.plist */,
+				FA82FC1413786CD200480778 /* InfoPlist.strings */,
+				FA82FC1713786CD200480778 /* LocaliseMe!-Prefix.pch */,
+				FA82FC1813786CD200480778 /* main.m */,
+				FA82FC1A13786CD200480778 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA82FC0613786CD200480778 /* LocaliseMe! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA82FC2513786CD200480778 /* Build configuration list for PBXNativeTarget "LocaliseMe!" */;
+			buildPhases = (
+				FA82FC0313786CD200480778 /* Sources */,
+				FA82FC0413786CD200480778 /* Frameworks */,
+				FA82FC0513786CD200480778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LocaliseMe!";
+			productName = "LocaliseMe!";
+			productReference = FA82FC0713786CD200480778 /* LocaliseMe!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA82FBFE13786CD100480778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = SimpleCode;
+			};
+			buildConfigurationList = FA82FC0113786CD100480778 /* Build configuration list for PBXProject "LocaliseMe!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA82FBFC13786CD100480778;
+			productRefGroup = FA82FC0813786CD200480778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA82FC0613786CD200480778 /* LocaliseMe! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA82FC0513786CD200480778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82FC1613786CD200480778 /* InfoPlist.strings in Resources */,
+				FA82FC1C13786CD200480778 /* Credits.rtf in Resources */,
+				FA82FC2213786CD200480778 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA82FC0313786CD200480778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82FC1913786CD200480778 /* main.m in Sources */,
+				FA82FC1F13786CD200480778 /* LocaliseMe_AppDelegate.m in Sources */,
+				FA82FC2A13786D1700480778 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA82FC1413786CD200480778 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA82FC1513786CD200480778 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA82FC1A13786CD200480778 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA82FC1B13786CD200480778 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA82FC2013786CD200480778 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA82FC2113786CD200480778 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA82FC2313786CD200480778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA82FC2413786CD200480778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA82FC2613786CD200480778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocaliseMe!/LocaliseMe!-Prefix.pch";
+				INFOPLIST_FILE = "LocaliseMe!/LocaliseMe!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA82FC2713786CD200480778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocaliseMe!/LocaliseMe!-Prefix.pch";
+				INFOPLIST_FILE = "LocaliseMe!/LocaliseMe!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA82FC0113786CD100480778 /* Build configuration list for PBXProject "LocaliseMe!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA82FC2313786CD200480778 /* Debug */,
+				FA82FC2413786CD200480778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA82FC2513786CD200480778 /* Build configuration list for PBXNativeTarget "LocaliseMe!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA82FC2613786CD200480778 /* Debug */,
+				FA82FC2713786CD200480778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA82FBFE13786CD100480778 /* Project object */;
+}

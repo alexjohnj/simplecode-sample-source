@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA348BB514A9176800D21FE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA348BB414A9176800D21FE4 /* Cocoa.framework */; };
+		FA348BBF14A9176800D21FE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA348BBD14A9176800D21FE4 /* InfoPlist.strings */; };
+		FA348BC114A9176800D21FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA348BC014A9176800D21FE4 /* main.m */; };
+		FA348BC514A9176800D21FE4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA348BC314A9176800D21FE4 /* Credits.rtf */; };
+		FA348BC814A9176800D21FE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA348BC714A9176800D21FE4 /* AppDelegate.m */; };
+		FA348BCB14A9176900D21FE4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA348BC914A9176900D21FE4 /* MainMenu.xib */; };
+		FA348BCE14A9176900D21FE4 /* CoreDataBookManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA348BCC14A9176900D21FE4 /* CoreDataBookManager.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA348BB014A9176800D21FE4 /* CoreDataBookManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBookManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA348BB414A9176800D21FE4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA348BB714A9176800D21FE4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA348BB814A9176800D21FE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA348BB914A9176800D21FE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA348BBC14A9176800D21FE4 /* CoreDataBookManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataBookManager-Info.plist"; sourceTree = "<group>"; };
+		FA348BBE14A9176800D21FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA348BC014A9176800D21FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA348BC214A9176800D21FE4 /* CoreDataBookManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataBookManager-Prefix.pch"; sourceTree = "<group>"; };
+		FA348BC414A9176800D21FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FA348BC614A9176800D21FE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA348BC714A9176800D21FE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA348BCA14A9176900D21FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA348BCD14A9176900D21FE4 /* CoreDataBookManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBookManager.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA348BAD14A9176800D21FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA348BB514A9176800D21FE4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA348BA514A9176800D21FE4 = {
+			isa = PBXGroup;
+			children = (
+				FA348BBA14A9176800D21FE4 /* CoreDataBookManager */,
+				FA348BB314A9176800D21FE4 /* Frameworks */,
+				FA348BB114A9176800D21FE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA348BB114A9176800D21FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA348BB014A9176800D21FE4 /* CoreDataBookManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA348BB314A9176800D21FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA348BB414A9176800D21FE4 /* Cocoa.framework */,
+				FA348BB614A9176800D21FE4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA348BB614A9176800D21FE4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA348BB714A9176800D21FE4 /* AppKit.framework */,
+				FA348BB814A9176800D21FE4 /* CoreData.framework */,
+				FA348BB914A9176800D21FE4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA348BBA14A9176800D21FE4 /* CoreDataBookManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA348BC614A9176800D21FE4 /* AppDelegate.h */,
+				FA348BC714A9176800D21FE4 /* AppDelegate.m */,
+				FA348BC914A9176900D21FE4 /* MainMenu.xib */,
+				FA348BCC14A9176900D21FE4 /* CoreDataBookManager.xcdatamodeld */,
+				FA348BBB14A9176800D21FE4 /* Supporting Files */,
+			);
+			path = CoreDataBookManager;
+			sourceTree = "<group>";
+		};
+		FA348BBB14A9176800D21FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA348BBC14A9176800D21FE4 /* CoreDataBookManager-Info.plist */,
+				FA348BBD14A9176800D21FE4 /* InfoPlist.strings */,
+				FA348BC014A9176800D21FE4 /* main.m */,
+				FA348BC214A9176800D21FE4 /* CoreDataBookManager-Prefix.pch */,
+				FA348BC314A9176800D21FE4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA348BAF14A9176800D21FE4 /* CoreDataBookManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA348BD114A9176900D21FE4 /* Build configuration list for PBXNativeTarget "CoreDataBookManager" */;
+			buildPhases = (
+				FA348BAC14A9176800D21FE4 /* Sources */,
+				FA348BAD14A9176800D21FE4 /* Frameworks */,
+				FA348BAE14A9176800D21FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataBookManager;
+			productName = CoreDataBookManager;
+			productReference = FA348BB014A9176800D21FE4 /* CoreDataBookManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA348BA714A9176800D21FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FA348BAA14A9176800D21FE4 /* Build configuration list for PBXProject "CoreDataBookManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA348BA514A9176800D21FE4;
+			productRefGroup = FA348BB114A9176800D21FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA348BAF14A9176800D21FE4 /* CoreDataBookManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA348BAE14A9176800D21FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA348BBF14A9176800D21FE4 /* InfoPlist.strings in Resources */,
+				FA348BC514A9176800D21FE4 /* Credits.rtf in Resources */,
+				FA348BCB14A9176900D21FE4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA348BAC14A9176800D21FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA348BC114A9176800D21FE4 /* main.m in Sources */,
+				FA348BC814A9176800D21FE4 /* AppDelegate.m in Sources */,
+				FA348BCE14A9176900D21FE4 /* CoreDataBookManager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA348BBD14A9176800D21FE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA348BBE14A9176800D21FE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA348BC314A9176800D21FE4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA348BC414A9176800D21FE4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FA348BC914A9176900D21FE4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA348BCA14A9176900D21FE4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA348BCF14A9176900D21FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA348BD014A9176900D21FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA348BD214A9176900D21FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataBookManager/CoreDataBookManager-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataBookManager/CoreDataBookManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA348BD314A9176900D21FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataBookManager/CoreDataBookManager-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataBookManager/CoreDataBookManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA348BAA14A9176800D21FE4 /* Build configuration list for PBXProject "CoreDataBookManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA348BCF14A9176900D21FE4 /* Debug */,
+				FA348BD014A9176900D21FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA348BD114A9176900D21FE4 /* Build configuration list for PBXNativeTarget "CoreDataBookManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA348BD214A9176900D21FE4 /* Debug */,
+				FA348BD314A9176900D21FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA348BCC14A9176900D21FE4 /* CoreDataBookManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA348BCD14A9176900D21FE4 /* CoreDataBookManager.xcdatamodel */,
+			);
+			currentVersion = FA348BCD14A9176900D21FE4 /* CoreDataBookManager.xcdatamodel */;
+			path = CoreDataBookManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA348BA714A9176800D21FE4 /* Project object */;
+}

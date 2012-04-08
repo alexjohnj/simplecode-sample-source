@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA191DA8153194D600DBE34C /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1D10B153192C500701144 /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = ""; }; };
+		FA191DAA153196AC00DBE34C /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1D109153192C500701144 /* MASPreferencesWindow.xib */; };
+		FAB1D0D61531914100701144 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1D0D51531914100701144 /* Cocoa.framework */; };
+		FAB1D0E01531914100701144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAB1D0DE1531914100701144 /* InfoPlist.strings */; };
+		FAB1D0E21531914100701144 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1D0E11531914100701144 /* main.m */; };
+		FAB1D0E61531914100701144 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAB1D0E41531914100701144 /* Credits.rtf */; };
+		FAB1D0E91531914100701144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1D0E81531914100701144 /* AppDelegate.m */; };
+		FAB1D0EC1531914100701144 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1D0EA1531914100701144 /* MainMenu.xib */; };
+		FAB1D0F41531914D00701144 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1D0F31531914D00701144 /* AppController.m */; };
+		FAB1D1001531926700701144 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1D0FE1531926700701144 /* GeneralPreferencesViewController.m */; };
+		FAB1D1011531926700701144 /* GeneralPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1D0FF1531926700701144 /* GeneralPreferencesViewController.xib */; };
+		FAB1D1051531927000701144 /* OtherPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB1D1031531927000701144 /* OtherPreferencesViewController.m */; };
+		FAB1D1061531927000701144 /* OtherPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB1D1041531927000701144 /* OtherPreferencesViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAB1D0F71531916900701144 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAB1D0D11531914100701144 /* MASPreferencesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MASPreferencesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB1D0D51531914100701144 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAB1D0D81531914100701144 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAB1D0D91531914100701144 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAB1D0DA1531914100701144 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAB1D0DD1531914100701144 /* MASPreferencesDemo-Info.plist */ = {isa = PBXFileReference; path = "MASPreferencesDemo-Info.plist"; sourceTree = "<group>"; };
+		FAB1D0DF1531914100701144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAB1D0E11531914100701144 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB1D0E31531914100701144 /* MASPreferencesDemo-Prefix.pch */ = {isa = PBXFileReference; path = "MASPreferencesDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FAB1D0E51531914100701144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAB1D0E71531914100701144 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB1D0E81531914100701144 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB1D0EB1531914100701144 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAB1D0F21531914D00701144 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		FAB1D0F31531914D00701144 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
+		FAB1D0FD1531926700701144 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		FAB1D0FE1531926700701144 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		FAB1D0FF1531926700701144 /* GeneralPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesViewController.xib; sourceTree = "<group>"; };
+		FAB1D1021531927000701144 /* OtherPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherPreferencesViewController.h; sourceTree = "<group>"; };
+		FAB1D1031531927000701144 /* OtherPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherPreferencesViewController.m; sourceTree = "<group>"; };
+		FAB1D1041531927000701144 /* OtherPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherPreferencesViewController.xib; sourceTree = "<group>"; };
+		FAB1D108153192C500701144 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		FAB1D109153192C500701144 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		FAB1D10A153192C500701144 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		FAB1D10B153192C500701144 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB1D0CE1531914100701144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB1D0D61531914100701144 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA191DA2153192E300DBE34C /* MASPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1D108153192C500701144 /* MASPreferencesViewController.h */,
+				FAB1D109153192C500701144 /* MASPreferencesWindow.xib */,
+				FAB1D10A153192C500701144 /* MASPreferencesWindowController.h */,
+				FAB1D10B153192C500701144 /* MASPreferencesWindowController.m */,
+			);
+			name = MASPreferences;
+			sourceTree = "<group>";
+		};
+		FAB1D0C61531914100701144 = {
+			isa = PBXGroup;
+			children = (
+				FA191DA2153192E300DBE34C /* MASPreferences */,
+				FAB1D1021531927000701144 /* OtherPreferencesViewController.h */,
+				FAB1D1031531927000701144 /* OtherPreferencesViewController.m */,
+				FAB1D1041531927000701144 /* OtherPreferencesViewController.xib */,
+				FAB1D0FD1531926700701144 /* GeneralPreferencesViewController.h */,
+				FAB1D0FE1531926700701144 /* GeneralPreferencesViewController.m */,
+				FAB1D0FF1531926700701144 /* GeneralPreferencesViewController.xib */,
+				FAB1D0DB1531914100701144 /* PrefTest */,
+				FAB1D0D41531914100701144 /* Frameworks */,
+				FAB1D0D21531914100701144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB1D0D21531914100701144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1D0D11531914100701144 /* MASPreferencesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB1D0D41531914100701144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1D0D51531914100701144 /* Cocoa.framework */,
+				FAB1D0D71531914100701144 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB1D0D71531914100701144 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1D0D81531914100701144 /* AppKit.framework */,
+				FAB1D0D91531914100701144 /* CoreData.framework */,
+				FAB1D0DA1531914100701144 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAB1D0DB1531914100701144 /* PrefTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1D0F21531914D00701144 /* AppController.h */,
+				FAB1D0F31531914D00701144 /* AppController.m */,
+				FAB1D0E71531914100701144 /* AppDelegate.h */,
+				FAB1D0E81531914100701144 /* AppDelegate.m */,
+				FAB1D0EA1531914100701144 /* MainMenu.xib */,
+				FAB1D0DC1531914100701144 /* Supporting Files */,
+			);
+			path = PrefTest;
+			sourceTree = "<group>";
+		};
+		FAB1D0DC1531914100701144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB1D0DD1531914100701144 /* MASPreferencesDemo-Info.plist */,
+				FAB1D0DE1531914100701144 /* InfoPlist.strings */,
+				FAB1D0E11531914100701144 /* main.m */,
+				FAB1D0E31531914100701144 /* MASPreferencesDemo-Prefix.pch */,
+				FAB1D0E41531914100701144 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB1D0D01531914100701144 /* MASPreferencesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB1D0EF1531914100701144 /* Build configuration list for PBXNativeTarget "MASPreferencesDemo" */;
+			buildPhases = (
+				FAB1D0CD1531914100701144 /* Sources */,
+				FAB1D0CE1531914100701144 /* Frameworks */,
+				FAB1D0CF1531914100701144 /* Resources */,
+				FAB1D0F71531916900701144 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MASPreferencesDemo;
+			productName = PrefTest;
+			productReference = FAB1D0D11531914100701144 /* MASPreferencesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB1D0C81531914100701144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FAB1D0CB1531914100701144 /* Build configuration list for PBXProject "MASPreferencesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAB1D0C61531914100701144;
+			productRefGroup = FAB1D0D21531914100701144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB1D0D01531914100701144 /* MASPreferencesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB1D0CF1531914100701144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA191DAA153196AC00DBE34C /* MASPreferencesWindow.xib in Resources */,
+				FAB1D0E01531914100701144 /* InfoPlist.strings in Resources */,
+				FAB1D0E61531914100701144 /* Credits.rtf in Resources */,
+				FAB1D0EC1531914100701144 /* MainMenu.xib in Resources */,
+				FAB1D1011531926700701144 /* GeneralPreferencesViewController.xib in Resources */,
+				FAB1D1061531927000701144 /* OtherPreferencesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB1D0CD1531914100701144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB1D0E21531914100701144 /* main.m in Sources */,
+				FAB1D0E91531914100701144 /* AppDelegate.m in Sources */,
+				FAB1D0F41531914D00701144 /* AppController.m in Sources */,
+				FAB1D1001531926700701144 /* GeneralPreferencesViewController.m in Sources */,
+				FAB1D1051531927000701144 /* OtherPreferencesViewController.m in Sources */,
+				FA191DA8153194D600DBE34C /* MASPreferencesWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB1D0DE1531914100701144 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB1D0DF1531914100701144 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAB1D0E41531914100701144 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB1D0E51531914100701144 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAB1D0EA1531914100701144 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB1D0EB1531914100701144 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB1D0ED1531914100701144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAB1D0EE1531914100701144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB1D0F01531914100701144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrefTest/MASPreferencesDemo-Prefix.pch";
+				INFOPLIST_FILE = "PrefTest/MASPreferencesDemo-Info.plist";
+				PRODUCT_NAME = MASPreferencesDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAB1D0F11531914100701144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrefTest/MASPreferencesDemo-Prefix.pch";
+				INFOPLIST_FILE = "PrefTest/MASPreferencesDemo-Info.plist";
+				PRODUCT_NAME = MASPreferencesDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB1D0CB1531914100701144 /* Build configuration list for PBXProject "MASPreferencesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB1D0ED1531914100701144 /* Debug */,
+				FAB1D0EE1531914100701144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB1D0EF1531914100701144 /* Build configuration list for PBXNativeTarget "MASPreferencesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB1D0F01531914100701144 /* Debug */,
+				FAB1D0F11531914100701144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB1D0C81531914100701144 /* Project object */;
+}

@@ -37,25 +37,26 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="NSTextField" id="365281884">
+					<object class="NSTextField" id="1046307188">
 						<reference key="NSNextResponder" ref="1005"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{154, 156}, {40, 17}}</string>
+						<string key="NSFrame">{{17, 20}, {231, 115}}</string>
 						<reference key="NSSuperview" ref="1005"/>
 						<reference key="NSWindow"/>
-						<string key="NSReuseIdentifierKey">_NS:1505</string>
+						<string key="NSReuseIdentifierKey">_NS:9</string>
+						<string key="NSAntiCompressionPriority">{250, 750}</string>
 						<bool key="NSEnabled">YES</bool>
-						<object class="NSTextFieldCell" key="NSCell" id="897614310">
-							<int key="NSCellFlags">68288064</int>
-							<int key="NSCellFlags2">272630784</int>
+						<object class="NSTextFieldCell" key="NSCell" id="153378181">
+							<int key="NSCellFlags">67239424</int>
+							<int key="NSCellFlags2">138674176</int>
 							<string key="NSContents">Other</string>
 							<object class="NSFont" key="NSSupport">
-								<string key="NSName">LucidaGrande</string>
-								<double key="NSSize">13</double>
-								<int key="NSfFlags">1044</int>
+								<string key="NSName">HelveticaNeue-UltraLight</string>
+								<double key="NSSize">100</double>
+								<int key="NSfFlags">16</int>
 							</object>
-							<string key="NSCellIdentifier">_NS:1505</string>
-							<reference key="NSControlView" ref="365281884"/>
+							<string key="NSCellIdentifier">_NS:9</string>
+							<reference key="NSControlView" ref="1046307188"/>
 							<object class="NSColor" key="NSBackgroundColor">
 								<int key="NSColorSpace">6</int>
 								<string key="NSCatalogName">System</string>
@@ -77,10 +78,10 @@
 						</object>
 					</object>
 				</array>
-				<string key="NSFrameSize">{347, 329}</string>
+				<string key="NSFrameSize">{265, 155}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="365281884"/>
+				<reference key="NSNextKeyView" ref="1046307188"/>
 				<string key="NSClassName">NSView</string>
 			</object>
 		</array>
@@ -125,22 +126,22 @@
 						<int key="objectID">1</int>
 						<reference key="object" ref="1005"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="365281884"/>
+							<reference ref="1046307188"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">3</int>
-						<reference key="object" ref="365281884"/>
+						<int key="objectID">9</int>
+						<reference key="object" ref="1046307188"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="897614310"/>
+							<reference ref="153378181"/>
 						</array>
 						<reference key="parent" ref="1005"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">4</int>
-						<reference key="object" ref="897614310"/>
-						<reference key="parent" ref="365281884"/>
+						<int key="objectID">10</int>
+						<reference key="object" ref="153378181"/>
+						<reference key="parent" ref="1046307188"/>
 					</object>
 				</array>
 			</object>
@@ -149,14 +150,14 @@
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="-3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="3.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="9.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">8</int>
+			<int key="maxID">10</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

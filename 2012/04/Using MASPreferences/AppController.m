@@ -14,7 +14,7 @@
 
 - (IBAction)displayPreferences:(id)sender {
     if(_preferencesWindow == nil){
-        NSViewController *generalViewController = [[GeneralPreferencesViewController alloc] initWithNibName:@"GeneralViewController" bundle:[NSBundle mainBundle]];
+        NSViewController *generalViewController = [[GeneralPreferencesViewController alloc] initWithNibName:@"GeneralPreferencesViewController" bundle:[NSBundle mainBundle]];
         NSViewController *otherViewController = [[OtherPreferencesViewController alloc] initWithNibName:@"OtherPreferencesViewController" bundle:[NSBundle mainBundle]];
         NSArray *views = [NSArray arrayWithObjects:generalViewController, otherViewController, nil]; //an array with all our view controllers to pass to the preferences window
         NSString *title = NSLocalizedString(@"Preferences", @"Common title for Preferences window");

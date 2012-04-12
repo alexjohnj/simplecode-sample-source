@@ -3,23 +3,23 @@
 //  BoundTable
 //
 //  Created by Alex Jackson on 27/12/2011.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
-//
 
 #import "TaskModel.h"
 @implementation TaskModel
-@synthesize taskName, taskDueDate;
+@synthesize taskName = _taskName;
+@synthesize taskDueDate = _taskDueDate;
+
 - (id)init {
     self = [super init];
     if (self) {
-        taskName = [[NSString alloc] init];
-        taskDueDate = [[NSDate alloc] init];
+        _taskName = [[NSString alloc] init];
+        _taskDueDate = [[NSDate alloc] init];
     }
     return self;
 }
 - (void)dealloc {
-    [taskName release];
-    [taskDueDate release];
+    [_taskName release];
+    [_taskDueDate release];
     [super dealloc];
 }
 @end

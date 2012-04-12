@@ -9,17 +9,19 @@
 #import "AppController.h"
 
 @implementation AppController
-@synthesize mainWindow, preferencesController;
+@synthesize mainWindow = _mainWindow;
+@synthesize  preferencesController = _preferencesController;
 
 -(IBAction)showPreferences:(id)sender{
-    if(!self.preferencesController)
-        self.preferencesController = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
+    if(!_preferencesController)
+        _preferencesController = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
     
     [self.preferencesController showWindow:self];
 }
 
 - (void)dealloc {
-    [preferencesController release];
+    [_preferencesController release];
     [super dealloc];
 }
+
 @end

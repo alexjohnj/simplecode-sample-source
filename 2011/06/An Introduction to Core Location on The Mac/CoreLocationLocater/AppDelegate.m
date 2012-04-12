@@ -11,11 +11,12 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize manager, textField;
+@synthesize manager = _manager;
+@synthesize textField = _textField;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    self.manager = [[CLLocationManager alloc] init];
+    _manager = [[CLLocationManager alloc] init];
     [self.manager setDelegate:self];
     [self.manager setDesiredAccuracy:kCLLocationAccuracyBest];
     [self.manager setDistanceFilter:kCLDistanceFilterNone];
@@ -28,18 +29,21 @@
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation{
-    [textField setStringValue:[NSString stringWithFormat:@"%@", newLocation]];
+    [self.textField setStringValue:[NSString stringWithFormat:@"%@", newLocation]];
 //    [textField setStringValue:[NSString stringWithFormat:@"%@", [newLocation timestamp]]]; //uncomment this line to set the text field to the timestamp
 }
 
 -(void)applicationWillTerminate:(NSNotification *)notification{
     [self.manager stopUpdatingLocation];
-    [self.manager release];
+    [_manager release];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
-    [textField setStringValue:[NSString stringWithFormat:@"Error: %@", error]];
+    [self.textField setStringValue:[NSString stringWithFormat:@"Error: %@", error]];
 }
 
+-(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender{
+    return YES;
+}
 
 @end

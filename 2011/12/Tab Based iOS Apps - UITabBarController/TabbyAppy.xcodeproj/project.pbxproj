@@ -180,7 +180,7 @@
 		FAA413CD14A9D6DF006B34C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = FAA413D014A9D6DF006B34C9 /* Build configuration list for PBXProject "TabbyAppy" */;
 			compatibilityVersion = "Xcode 3.2";

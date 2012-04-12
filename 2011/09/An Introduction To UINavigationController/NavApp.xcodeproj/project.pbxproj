@@ -140,7 +140,7 @@
 		FAADBBFC14A9CE5900095399 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = FAADBBFF14A9CE5900095399 /* Build configuration list for PBXProject "NavApp" */;
 			compatibilityVersion = "Xcode 3.2";

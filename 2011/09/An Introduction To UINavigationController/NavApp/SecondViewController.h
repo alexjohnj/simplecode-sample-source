@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "ThirdViewController.h"
+
 @interface SecondViewController : UIViewController
+
 -(IBAction)continueToNextView:(id)sender;
+
 @end

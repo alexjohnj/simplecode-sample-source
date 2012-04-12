@@ -9,10 +9,10 @@
 #import "ThirdViewController.h"
 
 @implementation ThirdViewController
-@synthesize label;
+@synthesize label = _label;
 
 -(void)menuButtonPressed{
-    [label setText:@"COOL!"];
+    [_label setText:@"COOL!"];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -49,6 +49,7 @@
 
 - (void)viewDidUnload
 {
+    self.label = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

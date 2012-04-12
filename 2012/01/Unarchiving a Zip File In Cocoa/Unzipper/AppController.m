@@ -9,15 +9,16 @@
 #import "AppController.h"
 
 @implementation AppController
-@synthesize filePath;
+
+@synthesize filePath = _filePath;
 
 -(IBAction)openFile:(id)sender{
     NSOpenPanel *oPanel = [[NSOpenPanel alloc] init];
-    if(self.filePath != nil){
-        self.filePath = nil; // nil the path in case the user is opening a second file.
+    if(_filePath != nil){
+        _filePath = nil; // nil the path in case the user is opening a second file.
     }
     
-    self.filePath = [[NSString alloc] init];
+    _filePath = [[NSString alloc] init];
     NSInteger choice = [oPanel runModal]; 
     if(choice == NSOKButton){
         self.filePath = [[oPanel URL] path];

@@ -11,7 +11,7 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize tabController;
+@synthesize tabController = _tabController;
 - (void)dealloc
 {
     [_window release];

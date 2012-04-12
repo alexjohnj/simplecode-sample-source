@@ -157,7 +157,7 @@
 		FA69D7D014A9145200E6D583 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = FA69D7D314A9145200E6D583 /* Build configuration list for PBXProject "BoundPreferencesWindow" */;
 			compatibilityVersion = "Xcode 3.2";

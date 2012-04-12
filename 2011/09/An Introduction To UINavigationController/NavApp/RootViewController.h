@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "SecondViewController.h"
+
 @interface RootViewController : UIViewController
 
 -(IBAction)continueToNextView:(id)sender;

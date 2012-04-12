@@ -9,7 +9,7 @@
 #import "AppController.h"
 
 @implementation AppController
-@synthesize foo;
+@synthesize foo = _foo;
 
 -(id)init{
     self = [super init];

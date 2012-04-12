@@ -133,7 +133,7 @@
 		FA7D33AC14C31BAB0009323C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = FA7D33AF14C31BAB0009323C /* Build configuration list for PBXProject "Unzipper" */;
 			compatibilityVersion = "Xcode 3.2";

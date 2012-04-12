@@ -11,10 +11,10 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize navController;
+@synthesize navController = _navController;
 - (void)dealloc
 {
-    [navController release];
+    [_navController release];
     [_window release];
     [super dealloc];
 }

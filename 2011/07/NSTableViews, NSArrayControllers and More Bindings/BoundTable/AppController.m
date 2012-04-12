@@ -9,17 +9,17 @@
 #import "AppController.h"
 
 @implementation AppController
-@synthesize tasksArray;
+@synthesize tasksArray = _tasksArray;
 
 - (id)init {
     self = [super init];
     if (self) {
-        tasksArray = [[NSMutableArray alloc] init];
+        _tasksArray = [[NSMutableArray alloc] init];
     }
     return self;
 }
 - (void)dealloc {
-    [tasksArray release];
+    [_tasksArray release];
     [super dealloc];
 }
 @end
